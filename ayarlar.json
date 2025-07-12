@@ -1,0 +1,77 @@
+{
+  "setupChannelId": "",
+  "ticketCategoryId": "",
+  "threadUsers": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""  
+    
+  ],
+  "staffRoles": [""],
+  "logChannelId": "",
+  "autoRole": "",
+  "welcomeLogChannel": "",
+  "language": "en",
+  "embedConfig": {
+    "title": "Ticket System - Alsia",
+    "description": "Select a **category** from the **menu** to create a **ticket**.",
+    "color": "#000000",
+    "thumbnail": "https://example.com/logo.png",
+    "footer": "© Alsia - Developed by Alsia",
+    "beforeOpeningTitle": "Before Opening the Ticket:",
+    "beforeOpeningDesc": "**I.** Please **read** the Rules to avoid getting **blacklisted**!\n\n**II.** Please **review** the Rules ( for any answers you may need, ensuring that you do not open a ticket unnecessarily if your query has already been addressed."
+  },
+  "emojis": {
+    "software": "<:administrator:1392916349314924713>",
+    "support": "<:support1:1392916346366328892>",
+    "update": "<:update:1392916347817689169>",
+    "alertstaff": "<:allert:1201180752193273976>",
+    "closeticket": "<:settings:1201178780140572701>"
+  },
+  "ticketMessages": {
+    "software": {
+      "title": "Ticket System - Alsia",
+      "description": "Welcome {user} to your ticket!",
+      "requestInfo": "**Request Information:**\n`I.` Could you please provide us with more details about the information you're interested in?",
+      "category": "**Category:**\n`I.` Software",
+      "consent": "**Consent:**\n`I.` By using our services, you consent to the use of your PC's sensitive data as described .\n`II.` If you do not agree to these terms, please **do not use** our services.",
+      "color": "#000000"
+    },
+    "support": {
+      "title": "Ticket System - Alsia",
+      "description": "Welcome {user} to your ticket!",
+      "requestInfo": "**Request Information:**\n`I.` Could you please provide us with more details about the support you need?",
+      "category": "**Category:**\n`I.` Support",
+      "consent": "**Consent:**\n`I.` By using our services, you consent to the use of your PC's sensitive data as described .\n`II.` If you do not agree to these terms, please **do not use** our services.",
+      "color": "#000000"
+    },
+    "update": {
+      "title": "Ticket System - Alsia",
+      "description": "Welcome {user} to your ticket!",
+      "requestInfo": "**Request Information:**\n`I.` Could you please provide us with more details about the update you're requesting?",
+      "category": "**Category:**\n`I.` Update",
+      "consent": "**Consent:**\n`I.` By using our services, you consent to the use of your PC's sensitive data as described (<#1381627208929513533>).\n`II.` If you do not agree to these terms, please **do not use** our services.",
+      "color": "#000000"
+    }
+  },
+  "messages": {
+    "ticketCreated": " `Ticket Created` \n{threadLink}",
+    "ticketCreatedEphemeral": ""
+  },
+  "maxTicketsPerUser": 1,
+  "errorMessages": {
+    "tooManyTickets": " You already have an open ticket!.",
+    "ticketLimit": "You can open maximum {limit} tickets."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ticket-bot",
+  "version": "1.0.0",
+  "description": "Discord Ticket Bot System",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "moment": "^2.29.4"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "ticket"
+  ],
+  "author": "Alsia",
+  "license": "MIT"
+}
